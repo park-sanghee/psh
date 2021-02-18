@@ -1,3 +1,6 @@
+//절대습도 산출
+//온도,상대습도
+
 double calcSaturatedVaporPressure() //온도로 포화수증기압 산출 (mb) hPa
 {
     double es = 6.11*pow(10,(7.5*comp_data.temperature)/(237.3+comp_data.temperature))
