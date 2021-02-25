@@ -4,15 +4,15 @@ import openpyxl
 import xlsxwriter
 #https://api.telegram.org/bot1661487143:AAHOSggWOMG2bth3TrBkEGQ6FFwyfDgWbm4/getUpdates
 
-#rb=load_workbook("C:/Users/tmflf/OneDrive/문서/test.xlsx")
+#rb=load_workbook("")
 #ws = rb['Sheet1']
 #print(ws['C4'].value)
 fileName = ''
 Storage_path = 'C:/Users/tmflf/OneDrive/문서/'
 
 ExelList=[] #엑셀에 들어갈 내용만 
-TOKEN = '1661487143:AAHOSggWOMG2bth3TrBkEGQ6FFwyfDgWbm4'
-CHAT_ID = '1121535923'
+TOKEN = ''
+CHAT_ID = ''
 
 
 # 특정 값 찾는 함수
