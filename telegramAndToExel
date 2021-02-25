@@ -8,7 +8,7 @@ import xlsxwriter
 #ws = rb['Sheet1']
 #print(ws['C4'].value)
 fileName = ''
-Storage_path = 'C:/Users/tmflf/OneDrive/문서/'
+Storage_path = ''
 
 ExelList=[] #엑셀에 들어갈 내용만 
 TOKEN = ''
@@ -87,8 +87,7 @@ wb = openpyxl.Workbook()
 sheet1 = wb.active
 sheet2 = wb.create_sheet('result')
 sheet2.title = 'example'
-#sheet2.cell(row = 3, column = 3).value = '3,3'
-#sheet2.append(["입력값1", "입력값2", "입력값3", "입력값"])
+
 
 
 '''
