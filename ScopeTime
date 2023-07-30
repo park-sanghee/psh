@@ -1,0 +1,24 @@
+#pragma once
+
+#include <string>
+
+#include <ctime>
+
+#include <iostream>
+
+/* Only used For test */
+
+class ScopeTime
+{
+ clock_t mStartTime = 0;
+ std::string mMessageString = "";
+public:
+ ScopeTime(std::string Message) :mStartTime(clock()), mMessageString(Message) {
+ }
+
+~ScopeTime()
+ {
+  std::cout << mMessageString << " : " << (double)(clock() - mStartTime) << " msec" << std::endl;
+ }
+
+};
